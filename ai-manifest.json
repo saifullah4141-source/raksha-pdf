@@ -7,5 +7,24 @@
   "fileSizeBytes": 986048128,
   "minimumAppVersion": 1,
   "format": "gguf",
-  "quantization": "Q4_K_M"
+  "quantization": "Q4_K_M",
+  "description": "Recommended. Trained for Raksha PDF, so it knows the app's tools.",
+  "alternates": [
+    {
+      "modelId": "raksha-ai-lite",
+      "displayName": "Raksha AI Lite",
+      "modelUrl": "https://github.com/saifullah4141-source/raksha-pdf/releases/download/raksha-ai-v1/raksha-ai-v1.gguf",
+      "sha256": "58ebd4d8526eef8eaf3d9409ba4020aa6a10eb88746f7505617992c333f7e6bc",
+      "fileSizeBytes": 397807424,
+      "description": "Also trained for Raksha PDF. Smaller download, for older phones."
+    },
+    {
+      "modelId": "gemma-3-1b-it",
+      "displayName": "Gemma 3 1B",
+      "modelUrl": "https://huggingface.co/ggml-org/gemma-3-1b-it-GGUF/resolve/main/gemma-3-1b-it-Q4_K_M.gguf",
+      "sha256": "8ccc5cd1f1b3602548715ae25a66ed73fd5dc68a210412eea643eb20eb75a135",
+      "fileSizeBytes": 806058240,
+      "description": "Google's general model. Better open chat, but does not know Raksha's tools."
+    }
+  ]
 }

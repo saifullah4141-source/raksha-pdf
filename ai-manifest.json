@@ -1,1 +1,11 @@
-{"modelId":"raksha-ai-offline-v1","displayName":"Raksha AI","version":3,"modelUrl":"https://github.com/saifullah4141-source/raksha-pdf/releases/download/raksha-ai-v1/raksha-ai-v1.gguf","sha256":"58ebd4d8526eef8eaf3d9409ba4020aa6a10eb88746f7505617992c333f7e6bc","fileSizeBytes":397807424,"minimumAppVersion":1,"format":"gguf","quantization":"Q4_K_M"}
+{
+  "modelId": "raksha-ai-offline-v1",
+  "displayName": "Raksha AI",
+  "version": 4,
+  "modelUrl": "https://github.com/saifullah4141-source/raksha-pdf/releases/download/raksha-ai-v1/raksha-ai-v2.gguf",
+  "sha256": "99bf65e806ee733d8eb59c057e6a2dc27f1c625875f9eae1a0e022c418daaa89",
+  "fileSizeBytes": 986048128,
+  "minimumAppVersion": 1,
+  "format": "gguf",
+  "quantization": "Q4_K_M"
+}
